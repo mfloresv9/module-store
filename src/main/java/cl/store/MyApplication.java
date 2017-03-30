@@ -15,7 +15,7 @@ public class MyApplication extends Application {
         info.setVersion("1.0");
         info.setTitle("title");
 
-
+kjdssdlksdlkndsnlk
         BeanConfig beanConfig = new BeanConfig();
         beanConfig.setVersion("1.0");
         beanConfig.setDescription("RESTful resources");
