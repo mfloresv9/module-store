@@ -3,9 +3,9 @@
         xmlns="http://maven.apache.org/POM/4.0.0"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.mxi.maintsuite</groupId>
-    <artifactId>Task.Artifact</artifactId>
-    <name>Microservices-Task</name>
+    <groupId>cl.store</groupId>
+    <artifactId>Store.Artifact</artifactId>
+    <name>Microservices-Store</name>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -25,7 +25,5 @@
         <lombok.version>1.16.8</lombok.version>
     </properties>
 
-    <modules>
-        <module>module-task</module>
-    </modules>
+
 </project>
