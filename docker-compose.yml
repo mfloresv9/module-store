@@ -1,12 +1,12 @@
 version: '2'
 
 services:
-    module-task:
+    module-store:
       build:
         context: .
-        dockerfile: ${MS_TASK_HOME}/dev/Dockerfile.dev
+        dockerfile: ${MS_STORE_HOME}/dev/Dockerfile.dev
         args:
-          DEV_HOME : ${MS_TASK_HOME}
+          DEV_HOME : ${MS_STORE_HOME}
       ports:
         - "8080:8080"
       external_links:
@@ -16,7 +16,7 @@ services:
         - postgresdb_default
 
       volumes:
-        - ../module-task:${MS_TASK_HOME}
+        - ../module-store:${MS_STORE_HOME}
 
 networks:
     default:

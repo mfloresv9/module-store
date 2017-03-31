@@ -1,6 +1,6 @@
 FROM java:openjdk-8-jdk
 
-ADD module-task/target/module-task-swarm.jar /opt/module-task-swarm.jar
+ADD src/target/module-store-swarm.jar /opt/module-store-swarm.jar
 
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "/opt/module-task-swarm.jar"]
+ENTRYPOINT ["java", "-jar", "/opt/module-store-swarm.jar"]
